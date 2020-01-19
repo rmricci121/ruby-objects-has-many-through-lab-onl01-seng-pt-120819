@@ -1,12 +1,11 @@
 require 'pry'
 class Patient
   
-  attr_accessor :name, :patient 
+  attr_accessor :name
   
   @@all =[]
   def initialize(name)
     @name = name
-    @patient = patient
     @@all << self
   end
   
