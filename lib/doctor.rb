@@ -30,7 +30,7 @@ class Doctor
     appointments.map do |appointment|
       appointment.patient 
       
-      binding.pry
+      #binding.pry
     end
   end
   
