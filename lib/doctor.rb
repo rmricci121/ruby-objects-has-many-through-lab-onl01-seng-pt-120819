@@ -16,13 +16,13 @@ class Doctor
   
   def new_appointment(name, date)
     Appointment.new(name, date, self)
-    binding.pry
+    
   end
     
   def appointments
     Appointment.all.select do |app|
       app.doctor == self 
-      #binding.pry
+      binding.pry
     end
   end
   
