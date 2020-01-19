@@ -28,7 +28,7 @@ class Doctor
   
   def patients
     appointments.map do |app|
-      app.date
+      app.date == self
       #binding.pry
     end
   end
