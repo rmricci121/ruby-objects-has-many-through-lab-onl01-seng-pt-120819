@@ -27,10 +27,10 @@ class Doctor
   end
   
   def patients
-    appointments.map do |app|
-      app.patient 
+    appointments.map do |appointment|
+      appointment.patient 
       
-      binding.pry
+      #binding.pry
     end
   end
   
