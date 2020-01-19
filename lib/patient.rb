@@ -6,6 +6,7 @@ class Patient
   @@all =[]
   def initialize(name)
     @name = name
+    @patient = patient
     @@all << self
   end
   
