@@ -22,7 +22,7 @@ class Doctor
   def appointments
     Appointment.all.select do |app|
       app.doctor == self 
-      binding.pry
+      #binding.pry
     end
   end
   
@@ -30,7 +30,7 @@ class Doctor
     appointments.map do |appointment|
       appointment.patient 
       
-      #binding.pry
+      binding.pry
     end
   end
   
